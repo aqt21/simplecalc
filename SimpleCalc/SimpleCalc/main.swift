@@ -50,7 +50,6 @@ public class Calculator {
         if args[1] == "+" {
             let first : Int? = Int(args[0])
             let second : Int? = Int(args[2])
-            print(first! + second!)
             return first! + second!
         }
         if args[1] == "-" {
@@ -73,7 +72,6 @@ public class Calculator {
             let second : Int? = Int(args[2])
             while first! >= second! {
                 first! -= second!
-                print(first!);
             }
             
             return first!
